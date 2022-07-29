@@ -1,1 +1,3 @@
 This repository holds scripts, notes, results, etc. of the tRNA quantification project from the Colin Wu lab (RBL). [mimseq or mim-tRNASeq](https://github.com/nedialkova-lab/mim-tRNAseq) is the tool primarily used for analysis of data generated in the lab.
+
+> **NOTE**: For question/requests/suggestions regarding this project please contact [Vishal Koparde](mailto:vishal.koparde@nih.gov) or [Samantha Chill](mailto:samantha.sevilla@nih.gov).
