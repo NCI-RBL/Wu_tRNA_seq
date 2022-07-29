@@ -1,6 +1,7 @@
 ### Background
 
 tRNA quantification is hard. cDNA synthesis is hampered by:
+
   * pervasive RT blocks by modified (mostly methylated) nucleosides ... this leads to premature RT stops at modified sites... resulting in very short reads.
   * extensive similarity between tRNA genes ... eg. tRNA genes coding for 2 different codons can have only a single nucleotide difference. ... this make the _alignment_ step of analysis pipeline extremely difficult.
   
