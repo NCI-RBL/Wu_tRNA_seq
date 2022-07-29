@@ -97,12 +97,5 @@ markdown_extensions:
 # Page Tree
 nav:
   - Intro : index.md
-  - GitHub:
-    - Personal Access Token: GitHub/PAT.md
-    - Create new repo: GitHub/newrepo.md
-    - Setup Pages: GitHub/setuppages.md
-    - Passwordless login: GitHub/login.md
-  - HPCDME :
-    - Setup : HPCDME/setup.md
-    - Biowulf2HPCDME: HPCDME/transfer.md
-
+  - Background : wu_rbl/background.md
+  - Datasets : wu_rbl/datasets.md
