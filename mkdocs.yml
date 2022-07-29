@@ -1,0 +1,108 @@
+# Project Information
+site_name: tRNA abundance quantification for Colin Wu Lab (RBL)
+site_author: Vishal Koparde, Ph.D.
+site_description: >-
+  tRNA abundance quantification for Colin Wu Lab using mim-tRNASeq toolkit
+
+# Repository
+repo_name: CCBR/HowTos
+repo_url: https://github.com/RBL-NCI/Wu_tRNA_seq
+edit_uri: https://github.com/RBL-NCI/Wu_tRNA_seq/edit/docs/docs/
+
+# Copyright
+copyright: Copyright &copy; 2022 CCBR
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  logo: assets/images/doc-book.svg
+  favicon: assets/images/favicon.png
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date
+  - minify:
+      minify_html: true
+
+
+# Customization
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/users
+      link: https://ccbr.ccr.cancer.gov/
+    - icon: fontawesome/brands/github
+      link: https://github.com/CCBR
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:vishal.koparde@nih.gov
+  version:
+    provider: mike
+
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page Tree
+nav:
+  - Intro : index.md
+  - GitHub:
+    - Personal Access Token: GitHub/PAT.md
+    - Create new repo: GitHub/newrepo.md
+    - Setup Pages: GitHub/setuppages.md
+    - Passwordless login: GitHub/login.md
+  - HPCDME :
+    - Setup : HPCDME/setup.md
+    - Biowulf2HPCDME: HPCDME/transfer.md
+
